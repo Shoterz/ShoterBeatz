@@ -563,7 +563,7 @@ body
 }
 .single-product .fa 
 {
-	color: orange;
+	color: white;
 }
 .single-product .price 
 {
@@ -580,7 +580,7 @@ body
 	text-align: center;
 	width: 30px;
 }
-.single-product .btn primary
+.single-product .btn(-)primary
 {
 	background: orange !important;
 	color: #fff;
@@ -588,6 +588,24 @@ body
 	margin-left: 20px;
 	border: none;
 	box-shadow: none !important
+}
+.single-product .btn-primary2
+{
+	background: #2a2c2d!important;
+	color: #fff;
+	font-size: 15px;
+	margin-left: 0px;
+	border: none;
+	box-shadow: none !important;
+	height: 38px;
+}
+.single-product .btn-primary2:hover
+{
+	color: #fff
+}
+.single-product	.btn-a:hover
+{
+	text-decoration: none;
 }
 /*-------------product-description------------------*/
 .product-description h6
