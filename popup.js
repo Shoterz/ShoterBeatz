@@ -13,6 +13,9 @@ function togglePopLicense2(content){
 function togglePopLicense3(content){
 	document.getElementById("popup-5").classList.toggle("active");
 }
+function togglePopMoreInfo(content){
+	document.getElementById("popup-6").classList.toggle("active");
+}
 
 
 if(window.scrollTop() > 0){
