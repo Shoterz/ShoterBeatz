@@ -580,6 +580,16 @@ body
 	text-align: center;
 	width: 30px;
 }
+.single-product .email
+{
+	border: 2px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: left;
+	width: 320px;
+	margin-bottom: 10px;
+	padding-left: 4px;
+}
 .single-product .btn(-)primary
 {
 	background: orange !important;
@@ -759,4 +769,26 @@ body
 	margin: auto;
 }
 
-/*-----------BeatStore-------------*/
+/*-----------Email Notification-------------*/
+.message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 18px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+}
