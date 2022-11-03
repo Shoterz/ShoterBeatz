@@ -22,7 +22,7 @@ function message(){
 	var email = document.getElementById('email');
     const success = document.getElementById('success');
     const danger = document.getElementById('danger');
-
+	 window.open('https://drive.google.com/drive/u/3/folders/1BXvY0zRki7CrbFW2uFx4z_WOlHqme6VX', '_self');
     if(email.value === ''){
         
     }
@@ -54,16 +54,3 @@ function message(){
 
           });
         });
-		
-function SubmitForm()
-{
-	showResultDiv();
-	document.forms['search'].action='https://sheetdb.io/api/v1/2fnor4g03g8cb';
-    document.forms['search'].submit();
-	
-    document.forms['search'].action='mail_handler.php';
-    document.forms['search'].submit();
-	
-
-    return false;
-}
