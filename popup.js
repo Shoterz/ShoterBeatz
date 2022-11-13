@@ -22,7 +22,7 @@ function message(){
 	var email = document.getElementById('email');
     const success = document.getElementById('success');
     const danger = document.getElementById('danger');
-	 window.open('https://drive.google.com/drive/u/3/folders/1BXvY0zRki7CrbFW2uFx4z_WOlHqme6VX', '_self');
+	
     if(email.value === ''){
         
     }
@@ -32,6 +32,7 @@ function message(){
         }, 10000);
 
         success.style.display = 'block';
+		 window.open('https://drive.google.com/drive/u/3/folders/1BXvY0zRki7CrbFW2uFx4z_WOlHqme6VX', '_self');
     }
 
 
@@ -40,7 +41,12 @@ function message(){
         success.style.display = 'none';
     }, 10000);
 }
+function message1(){
+	var email = document.getElementById('email1');
 
+	 window.open('https://drive.google.com/drive/folders/1RGUajNtlB0Ygm1jNl6R8qBfS_yQnf8X6?usp=sharing', '_self');
+   
+}
  var form = document.getElementById('emailform');
         form.addEventListener("submit", e => {
           e.preventDefault();
