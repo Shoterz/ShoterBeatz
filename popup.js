@@ -47,6 +47,12 @@ function message1(){
 	 window.open('https://drive.google.com/drive/folders/1RGUajNtlB0Ygm1jNl6R8qBfS_yQnf8X6?usp=sharing', '_self');
    
 }
+function message2(){
+	var email = document.getElementById('email2');
+
+	 window.open('https://drive.google.com/drive/folders/1XXu9moBnNApLKXHc6DTdmzTiQbGep02j?usp=sharing', '_self');
+   
+}
  var form = document.getElementById('emailform');
         form.addEventListener("submit", e => {
           e.preventDefault();
