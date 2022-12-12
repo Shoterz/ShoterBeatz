@@ -19,7 +19,7 @@
 				
 				<a href="index.html"><img src="Universal.jpg" class="logo"></a>
 				
-				  <input id="icon-search" name="icon-search" type="text" class="form-control">
+				  <input id="icon-search" name="icon-search" type="text" class="form-control" placeholder="Search.." onkeyup="searchProduct()">
 				  
 				
 				<span class="input-group-text"><i class="fa fa-search"></i></span>
@@ -57,343 +57,339 @@
 		</section>
 		
 		<!----------featured-category------------->
-		
-		<section class="on-sale">
-		  <div class="container">
-			  <div class="title-box">
-			  <h2>On Sale</h2>
-			  </div>
-			  <div class="row">
-			  
-			  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Heroes & Villains Deconstructed.html"><img src="KitProducts/heroes n villains.png"></a>
-				  <div class="overlay-right">
+		<div class="card-list" id="card-list">
+			<section class="on-sale">
+				<div class="container" id="card-lists">
+					<div class="title-box">
+						<h2>On Sale</h2>
+					</div>
+					<div class="row">
+					
+					<div class="col-md-3">
+					<div class="product-top">
+						<a href="KitProducts/Heroes & Villains Deconstructed.html"><img src="KitProducts/heroes n villains.png"></a>
+						<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Metro Boomin - Heroes & Villains Deconstructed Drum Kit</h3>
-					  <h5>$6</h5>
-				  </div>
-				  </div>
-			  
-			  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Feed Tha Streets 3 Deconstructed.html"><img src="KitProducts/feed tha streets 3.png"></a>
-				  <div class="overlay-right">
+						</div>
+						</div>
+						<div class="product-bottom text-center">
+							
+							<h3 class="card-title">Metro Boomin - Heroes & Villains Deconstructed Drum Kit</h3>
+							<h5>$6</h5>
+						</div>
+						</div>
+					
+					<div class="col-md-3">
+					<div class="product-top">
+						<a href="KitProducts/Feed Tha Streets 3 Deconstructed.html"><img src="KitProducts/feed tha streets 3.png"></a>
+						<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Roddy Ricch - Feed Tha Streets 3 Deconstructed Drum Kit</h3>
-					  <h5>$1</h5>
-				  </div>
-				  </div>
-				  
-			  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Her Loss Deconstructed.html"><img src="KitProducts/her loss.png"></a>
-				  <div class="overlay-right">
+						</div>
+						</div>
+						<div class="product-bottom text-center">
+							
+							<h3 class="card-title">Roddy Ricch - Feed Tha Streets 3 Deconstructed Drum Kit</h3>
+							<h5>$1</h5>
+						</div>
+						</div>
+						
+					<div class="col-md-3">
+					<div class="product-top">
+						<a href="KitProducts/Her Loss Deconstructed.html"><img src="KitProducts/her loss.png"></a>
+						<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Drake & 21 Savage - Her Loss Deconstructed Drum Kit</h3>
-					  <h5>$5</h5>
-				  </div>
-				  </div>
-			  
-			  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/It’s Only Me Deconstructed.html"><img src="KitProducts/its only me.png"></a>
-				  <div class="overlay-right">
+						</div>
+						</div>
+						<div class="product-bottom text-center">
+							
+							<h3 class="card-title">Drake & 21 Savage - Her Loss Deconstructed Drum Kit</h3>
+							<h5>$5</h5>
+						</div>
+						</div>
+					
+					<div class="col-md-3">
+					<div class="product-top">
+						<a href="KitProducts/It’s Only Me Deconstructed.html"><img src="KitProducts/its only me.png"></a>
+						<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Lil Baby - It’s Only Me Deconstructed Drum Kit</h3>
-					  <h5>$3</h5>
-				  </div>
-				  </div>
-	
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Deconstructed Kit Bundle 2.html"><img src="KitProducts/Shoter Beatz - Deconstructed Kit Bundle 2.png"></a>
-				  <div class="overlay-right">
-
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Shoter Beatz - Deconstructed Kit Bundle 2</h3>
-					  <h5>$15</h5>
-				  </div>
-				  </div>
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Deconstructed Kit Bundle 1.html"><img src="KitProducts/Shoter Beatz - Deconstructed Kit Bundle 1.png"></a>
-				  <div class="overlay-right">
-
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Shoter Beatz - Deconstructed Kit Bundle 1</h3>
-					  <h5>$10</h5>
-				  </div>
-				  </div>
-				  
-				  
+						</div>
+						</div>
+						<div class="product-bottom text-center">
+							
+							<h3 class="card-title">Lil Baby - It’s Only Me Deconstructed Drum Kit</h3>
+							<h5>$3</h5>
+						</div>
+						</div>
 			
-				  
-			  </div>   <a id="Deconstructed"></a><br>
-			</div>
-		</section>
+						
+						<div class="col-md-3">
+					<div class="product-top">
+						<a href="KitProducts/Deconstructed Kit Bundle 2.html"><img src="KitProducts/Shoter Beatz - Deconstructed Kit Bundle 2.png"></a>
+						<div class="overlay-right">
+
+						</div>
+						</div>
+						<div class="product-bottom text-center">
+							
+							<h3 class="card-title">Shoter Beatz - Deconstructed Kit Bundle 2</h3>
+							<h5>$15</h5>
+						</div>
+						</div>
+						
+						<div class="col-md-3">
+					<div class="product-top">
+						<a href="KitProducts/Deconstructed Kit Bundle 1.html"><img src="KitProducts/Shoter Beatz - Deconstructed Kit Bundle 1.png"></a>
+						<div class="overlay-right">
+
+						</div>
+						</div>
+						<div class="product-bottom text-center">
+							
+							<h3 class="card-title">Shoter Beatz - Deconstructed Kit Bundle 1</h3>
+							<h5>$10</h5>
+						</div>
+						</div>
+					</div>   <a id="Deconstructed"></a><br>
+					</div>
+			</section>
 
 
-<!------Album Kits put here for now------------>
-<section class="new-products">
-		  <div class="container">
-			<div class="title-box">
-			  <h2>Deconstructed</h2>
-			  </div>
-			  <div class="row">
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/2 Alive Deconstructed.html"><img src="KitProducts/2 alive.png"></a>
-				  <div class="overlay-right">
+	<!------Album Kits put here for now------------>
+	<section class="new-products">
+			<div class="container" id="card-list">
+				<div class="title-box">
+				<h2>Deconstructed</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/2 Alive Deconstructed.html"><img src="KitProducts/2 alive.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Yeat - 2 Alive Deconstructed Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/DS4EVER Deconstructed.html"><img src="KitProducts/DS4EVER.png"></a>
-				  <div class="overlay-right">
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Yeat - 2 Alive Deconstructed Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/DS4EVER Deconstructed.html"><img src="KitProducts/DS4EVER.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Gunna - DS4EVER Deconstructed Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-			  
-			  	  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Life of a DON Deconstructed.html"><img src="KitProducts/Life of A DON.png"></a>
-				  <div class="overlay-right">
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Gunna - DS4EVER Deconstructed Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+				
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Life of a DON Deconstructed.html"><img src="KitProducts/Life of A DON.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Don Toliver - Life of a DON Deconstructed Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Punk Deconstructed.html"><img src="KitProducts/Punk.png"></a>
-				  <div class="overlay-right">
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Don Toliver - Life of a DON Deconstructed Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Punk Deconstructed.html"><img src="KitProducts/Punk.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Young Thug - Punk Deconstructed Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Sincerely Kentrell Deconstructed.html"><img src="KitProducts/Sincerely, Kentrell.png"></a>
-				  <div class="overlay-right">
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Young Thug - Punk Deconstructed Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Sincerely Kentrell Deconstructed.html"><img src="KitProducts/Sincerely, Kentrell.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>NBA YoungBoy - Sincerely, Kentrell Deconstructed Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Donda Deconstructed.html"><img src="KitProducts/Donda.png"></a>
-				  <div class="overlay-right">
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">NBA YoungBoy - Sincerely, Kentrell Deconstructed Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Donda Deconstructed.html"><img src="KitProducts/Donda.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Kanye West - Donda Deconstructed Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Certified Lover Boy Deconstructed.html"><img src="KitProducts/Certified Lover Boy.png"></a>
-				  <div class="overlay-right">
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Kanye West - Donda Deconstructed Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Certified Lover Boy Deconstructed.html"><img src="KitProducts/Certified Lover Boy.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Drake - Certified Lover Boy Deconstructed Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  
-			  </div>   <a id="My_Kits"></a><br>
-			</div>
-		
-</section>
-		
-<!------Free Kits------------>
-		<section class="on-sale">
-		  <div class="container">
-			  <div class="title-box">
-			  <h2>My Kits</h2>
-			  </div>
-			  <div class="row">
-				  
-			  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Shoter - Playboi Carti x F1lthy Drum Kit.html"><img src="KitProducts/Playboi Carti x F1lthy.png"></a>
-				  <div class="overlay-right">
-
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Shoter - Playboi Carti x F1lthy Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Drake - Certified Lover Boy Deconstructed Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					
+				</div>   <a id="My_Kits"></a><br>
+				</div>
 			
-				  
-			  </div> 	<a id="Loop_Kits"></a><br>
-			</div>
-		</section>
-		
-<!------Loop Kits------------>
-		<section class="on-sale">
-		  <div class="container">
-			  <div class="title-box">
-			  <h2>Loop Kits</h2>
-			  </div>
-			  <div class="row">
-				  
-			  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Yeat Loopkit Vol 1.html"><img src="KitProducts/yeat loopkit.png"></a>
-				  <div class="overlay-right">
-
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Shoter Beatz - Yeat Loop Kit Vol. 1</h3>
-					  <h5>$6</h5>
-				  </div>
-				  </div>
+	</section>
 			
-				  
-			  </div> 
-			</div>
-		</section>
+	<!------Free Kits------------>
+			<section class="on-sale">
+			<div class="container" id="card-list">
+				<div class="title-box">
+				<h2>My Kits</h2>
+				</div>
+				<div class="row">
+					
+				<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Shoter - Playboi Carti x F1lthy Drum Kit.html"><img src="KitProducts/Playboi Carti x F1lthy.png"></a>
+					<div class="overlay-right">
 
-		<!-------------On Sale Products----------------->
-		<section class="on-sale">
-		  <div class="container">
-			  <div class="title-box">
-			  <h2>Upcoming Kits </h2>
-			  </div>
-			  <div class="row">
-			  <div class="col-md-3">
-			  <div class="product-top">
-				  <img src="KitProducts/Slime.png">
-				  <div class="overlay-right">
-
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Shooter - Slime Drum Kit</h3>
-					  <h5>Unreleased</h5>
-				  </div>
-				  </div>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Shoter - Playboi Carti x F1lthy Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+				
+					
+				</div> 	<a id="Loop_Kits"></a><br>
+				</div>
+			</section>
 			
-				  
-			  </div>   <a id="ORGANIZED"></a><br>
-			</div>
-		</section>
-		
+	<!------Loop Kits------------>
+			<section class="on-sale">
+			<div class="container">
+				<div class="title-box">
+				<h2>Loop Kits</h2>
+				</div>
+				<div class="row">
+					
+				<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Yeat Loopkit Vol 1.html"><img src="KitProducts/yeat loopkit.png"></a>
+					<div class="overlay-right">
 
-		
-		
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Shoter Beatz - Yeat Loop Kit Vol. 1</h3>
+						<h5>$6</h5>
+					</div>
+					</div>
+				
+					
+				</div> 
+				</div>
+			</section>
+
+			<!-------------On Sale Products----------------->
+			<section class="on-sale">
+			<div class="container" id="card-list">
+				<div class="title-box">
+				<h2>Upcoming Kits </h2>
+				</div>
+				<div class="row">
+				<div class="col-md-3">
+				<div class="product-top">
+					<img src="KitProducts/Slime.png">
+					<div class="overlay-right">
+
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Shooter - Slime Drum Kit</h3>
+						<h5>Unreleased</h5>
+					</div>
+					</div>
+				
+					
+				</div>   <a id="ORGANIZED"></a><br>
+				</div>
+			</section>
+			
+
+			
+			
 
 
-<!------Organized Kits------------>
-<section class="new-products">
-		  <div class="container">
-			<div class="title-box">
-			  <h2>Organized Kits</h2>
-			  </div>
-			  <div class="row"> 
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Sincerely Kentrell ORGANIZED.html"><img src="KitProducts/Sincerely, Kentrell Organized.png"></a>
-				  <div class="overlay-right">
+	<!------Organized Kits------------>
+	<section class="new-products">
+			<div class="container" id="card-list">
+				<div class="title-box">
+				<h2>Organized Kits</h2>
+				</div>
+				<div class="row"> 
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Sincerely Kentrell ORGANIZED.html"><img src="KitProducts/Sincerely, Kentrell Organized.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>NBA YoungBoy - Sincerely, Kentrell ORGANIZED Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  <div class="col-md-3">
-			  <div class="product-top">
-				  <a href="KitProducts/Certified Lover Boy ORGANIZED.html"><img src="KitProducts/Certified Lover Boy Organized.png"></a>
-				  <div class="overlay-right">
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">NBA YoungBoy - Sincerely, Kentrell ORGANIZED Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					<div class="col-md-3">
+				<div class="product-top">
+					<a href="KitProducts/Certified Lover Boy ORGANIZED.html"><img src="KitProducts/Certified Lover Boy Organized.png"></a>
+					<div class="overlay-right">
 
-				  </div>
-				  </div>
-				  <div class="product-bottom text-center">
-				      
-					  <h3>Drake - Certified Lover Boy ORGANIZED Drum Kit</h3>
-					  <h5>FREE</h5>
-				  </div>
-				  </div>
-				  
-				  
-			  </div> 
-			</div>
-		
-</section>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<h3 class="card-title">Drake - Certified Lover Boy ORGANIZED Drum Kit</h3>
+						<h5>FREE</h5>
+					</div>
+					</div>
+					
+					
+				</div> 
+				</div>
+			</section>
+		</div>
 		
 <!------------Website features--------------------->
 		

@@ -66,3 +66,21 @@ function message2(){
 
           });
         });
+
+function searchProduct() {
+    const input = document.getElementById('icon-search').value.toUpperCase();
+    console.log(input);
+    const cardContainer = document.getElementById('card-list');
+    console.log(cardContainer);
+    const cards = cardContainer.getElementsByClassName('col-md-3');
+    console.log(cards);
+    for(let i = 0; i < cards.length; i++){
+        let title = cards[i].querySelector(".product-bottom h3.card-title")
+        console.log(title);
+        if(title.innerText.toUpperCase().indexOf(input) > -1){
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+}
