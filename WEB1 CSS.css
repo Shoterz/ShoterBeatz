@@ -590,6 +590,16 @@ body
 	margin-bottom: 10px;
 	padding-left: 4px;
 }
+.single-product .email2
+{
+	border: 2px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: left;
+	width: 323px;
+	margin-bottom: 10px;
+	padding-left: 4px;
+}
 .single-product .btn(-)primary
 {
 	background: orange !important;
