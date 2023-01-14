@@ -84,7 +84,7 @@ setTimeout(() => {
 else
 {
 	danger.style.display = 'block';
-
+}
 	setTimeout(() => {
         danger.style.display = 'none';
         success.style.display = 'none';
