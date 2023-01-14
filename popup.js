@@ -79,10 +79,7 @@ setTimeout(() => {
         success.style.display = 'block';
 		 window.open('https://drive.google.com/drive/folders/1RGUajNtlB0Ygm1jNl6R8qBfS_yQnf8X6?usp=sharing', '_self');
 		 
-		 setTimeout(() => {
-        danger.style.display = 'none';
-        success.style.display = 'none';
-    }, 10000);
+		 
 }
 else
 {
@@ -93,6 +90,10 @@ else
         success.style.display = 'none';
     }, 10000);
 }
+	setTimeout(() => {
+        danger.style.display = 'none';
+        success.style.display = 'none';
+    }, 10000);
 }
 
 function message1(){
