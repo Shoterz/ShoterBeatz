@@ -41,6 +41,55 @@ function message(){
         success.style.display = 'none';
     }, 10000);
 }
+function message30(){
+	var email = document.getElementById('email');
+    const success = document.getElementById('success');
+    const danger = document.getElementById('danger');
+	
+    if(email.value === ''){
+        
+    }
+    else{
+        setTimeout(() => {
+            email.value = '';
+        }, 10000);
+
+        success.style.display = 'block';
+		 window.open('https://drive.google.com/drive/u/3/folders/1BXvY0zRki7CrbFW2uFx4z_WOlHqme6VX', '_self');
+    }
+
+
+    setTimeout(() => {
+        danger.style.display = 'none';
+        success.style.display = 'none';
+    }, 10000);
+}
+
+
+function message3()
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+var email = document.getElementById('email');
+if(email.value.match(mailformat))
+{
+setTimeout(() => {
+            email.value = '';
+        }, 10000);
+
+        success.style.display = 'block';
+		 window.open('https://drive.google.com/drive/folders/1RGUajNtlB0Ygm1jNl6R8qBfS_yQnf8X6?usp=sharing', '_self');
+		 
+		 setTimeout(() => {
+        danger.style.display = 'none';
+        success.style.display = 'none';
+    }, 10000);
+}
+else
+{
+
+}
+}
+
 function message1(){
 	var email = document.getElementById('email1');
 
