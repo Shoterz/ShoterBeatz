@@ -77,19 +77,14 @@ setTimeout(() => {
         }, 10000);
 
         success.style.display = 'block';
-		 window.open('https://drive.google.com/drive/folders/1RGUajNtlB0Ygm1jNl6R8qBfS_yQnf8X6?usp=sharing', '_self');
+		 window.open('https://drive.google.com/drive/folders/1zeSxRRtkz9s6P8MNd_Z_bCCMmaSw37v0?usp=share_link', '_self');
 		 
 		 
 }
 else
 {
 	danger.style.display = 'block';
-	
-	setTimeout(() => {
-        danger.style.display = 'none';
-        success.style.display = 'none';
-    }, 10000);
-}
+
 	setTimeout(() => {
         danger.style.display = 'none';
         success.style.display = 'none';
