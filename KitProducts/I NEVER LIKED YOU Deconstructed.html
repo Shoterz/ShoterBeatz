@@ -52,20 +52,20 @@
 		
 		
 		
-		<p class="price">FREE</p> 1
+		<p class="price">FREE</p> 2 oninvalid="this.setCustomValidity('Must be a valid email')"
 		<p><b></b> </p>
 		<p><b>Release Date:</b> 13/1/2023</p>
 		<p><b>Made by:</b> @shoterbeatz </p>
 		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfBGnCfntRotXSPCo1YVA4KXfZL-M7FPKaJ3tlvoIpSxtTy0g/formResponse" target="hidden_iframe" onsubmit="submitted=true" method="post" id="emailform">
 		<label><b>Email: </b></label>
-		<input class="email" id="email" type="email" placeholder="Enter your email address to get updates" name="entry.991471953" required oninvalid="this.setCustomValidity('Must be a valid email')">
+		<input class="email" id="email" type="email" placeholder="Enter your email address to get updates" name="entry.991471953" required>
 		</form>
 		<a onclick="message3()">
 		<button type="submit" class="btn btn-primary" form="emailform" name="sendMailBtn" value="Submit">Download</button>
 		</a>
 		 <div class="message">
                 <div class="success" id="success">Download link is ready!</div>
-                <div class="danger" id="danger">Field Can't be Empty!</div>
+                <div class="danger" id="danger">Must be a valid email</div>
             </div>
       </div>
     </div>
