@@ -86,7 +86,7 @@ setTimeout(() => {
 }
 else
 {
-
+	danger.style.display = 'block';
 }
 }
 
