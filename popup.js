@@ -74,7 +74,7 @@ if(email.value.match(mailformat))
 {
 setTimeout(() => {
             email.value = '';
-        }, 10000);
+        }, 5000);
 
         success.style.display = 'block';
 		 window.open('https://drive.google.com/drive/folders/1zeSxRRtkz9s6P8MNd_Z_bCCMmaSw37v0?usp=share_link', '_self');
@@ -88,7 +88,7 @@ else
 	setTimeout(() => {
         danger.style.display = 'none';
         success.style.display = 'none';
-    }, 10000);
+    }, 5000);
 }
 
 function message1(){
