@@ -56,17 +56,22 @@
 		<p><b></b> </p>
 		<p><b>Release Date:</b> 13/1/2023</p>
 		<p><b>Made by:</b> @shoterbeatz </p>
-		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdS2Ogvt_vFtPcSlBB40a1GJdFmaRd5enAVx8EG5YueFjBwsg/formResponse" target="hidden_iframe" onsubmit="submitted=true" method="post" id="emailform">
-		<label><b>Email: </b></label>
-		<input class="email2" id="email" type="email" placeholder="Enter your email address to get download" name="emailAddress" required oninvalid="this.setCustomValidity('Must be a valid email')">
-		</form>
-		<a onclick="message3()">
-		<button type="submit" class="btn btn-primary" form="emailform" name="sendMailBtn" value="Submit">Download</button>
+		<label><b>Please support by purchasing so that I can make more of these for yall in the future.</b></label>
+		<label>Click on <b>"Return to Merchant"</b> to receive download link.</label><br>
+		<label>If error persists: <b>email contactmehere.beats@gmail.com</b> or <b>dm @shoterbeatz</b></label><br>
+		<a class="a btn-a" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MJ6WMUWRX3XDA">
+		<button type="button" class="btn btn-primary" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MJ6WMUWRX3XDA', '_self');">Buy Now</button>
 		</a>
-		 <div class="message">
-                <div class="success" id="success">Download link is ready!</div>
-                <div class="danger" id="danger">Must be a valid email</div>
-            </div>
+		<button type="button" class="btn btn-primary3">
+<div class="popupmoreinfo" id="popup-6">
+<div class="overlay" onclick="togglePopupMoreInfo()"></div>
+<div class="content">
+<div class="close-btn" onclick="togglePopupMoreInfo()">&times;</div>
+<p>Click on "Return to Merchant" upon <br>payment to get the download link<br><br>If error persists: @shoterbeatz</p>
+</div>
+</div>
+<a onclick="togglePopupMoreInfo()"><img src="iconsinfo.png" width="100%" height="100%"></a>
+</button>
       </div>
     </div>
   
