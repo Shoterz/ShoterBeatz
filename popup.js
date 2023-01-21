@@ -91,6 +91,31 @@ else
     }, 2000);
 }
 
+function message4()
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+var email = document.getElementById('email');
+if(email.value.match(mailformat))
+{
+setTimeout(() => {
+            email.value = '';
+        }, 2000);
+
+        success.style.display = 'block';
+		 window.open('https://drive.google.com/drive/u/3/folders/1BXvY0zRki7CrbFW2uFx4z_WOlHqme6VX', '_self');
+		 
+		 
+}
+else
+{
+	danger.style.display = 'block';
+}
+	setTimeout(() => {
+        danger.style.display = 'none';
+        success.style.display = 'none';
+    }, 2000);
+}
+
 function message1(){
 	var email = document.getElementById('email1');
 
