@@ -101,9 +101,7 @@ setTimeout(() => {
             email.value = '';
         }, 2000);
 
-        success.style.display = 'block';
-		 window.open('https://drive.google.com/drive/u/3/folders/1BXvY0zRki7CrbFW2uFx4z_WOlHqme6VX', '_self');
-		 
+        success.style.display = 'block';		 
 		 
 }
 else
