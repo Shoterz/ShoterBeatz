@@ -99,7 +99,7 @@ if(email.value.match(mailformat))
 {
 setTimeout(() => {
             email.value = '';
-        }, 3000);
+        }, 2000);
 
         success.style.display = 'block';		 
 		 
@@ -110,8 +110,11 @@ else
 }
 	setTimeout(() => {
         danger.style.display = 'none';
-        success.style.display = 'none';
     }, 2000);
+	
+	setTimeout(() => {
+        success.style.display = 'none';
+    }, 5000);
 }
 
 function message1(){
