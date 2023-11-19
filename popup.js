@@ -129,6 +129,12 @@ function message2(){
 	 window.open('https://drive.google.com/drive/folders/1XXu9moBnNApLKXHc6DTdmzTiQbGep02j?usp=sharing', '_self');
    
 }
+function message3(){
+	var email = document.getElementById('email1');
+
+	 window.open('https://drive.google.com/drive/folders/1kVEhyfdrrBa5nLnQC2rcCmSlHYTJcQ9v?usp=drive_link', '_self');
+   
+}
  var form = document.getElementById('emailform');
         form.addEventListener("submit", e => {
           e.preventDefault();
