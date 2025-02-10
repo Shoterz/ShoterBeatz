@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 1000,
     "name": "ANGEL OF DEATH™",
     "price": "$50",
 	"type": "SHIRT",
@@ -9,7 +9,7 @@
 	"img2": "angel-back.png"
   },
   {
-    "id": 2,
+    "id": 900,
     "name": "ANGEL OF DEATH™",
     "price": "$50",
 	"type": "SHIRT",
@@ -18,7 +18,7 @@
 	"img2": "brown-back.png"
   },
   {
-    "id": 3,
+    "id": 800,
     "name": "LOS ANGELES TEE©",
     "price": "$50",
 	"type": "SHIRT",
@@ -27,7 +27,7 @@
 	"img2": "LA-back.png"
   },
   {
-    "id": 4,
+    "id": 700,
     "name": "NEW YORK TEE™",
     "price": "$50",
 	"type": "SHIRT",
@@ -36,7 +36,7 @@
 	"img2": "nyc-back.png"
   },
   {
-    "id": 5,
+    "id": 600,
     "name": "VENICE TEE™",
     "price": "$50",
 	"type": "SHIRT",
@@ -45,7 +45,7 @@
 	"img2": "venice-back.png"
   },
   {
-    "id": 6,
+    "id": 500,
     "name": "ZARA INSPIRED GRAPHIC",
     "price": "$50",
 	"type": "SHIRT",
