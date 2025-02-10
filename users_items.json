@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "ANGEL OF DEATH™",
+    "price": "$50",
+	"type": "SHIRT",
+	"code": "JUL24001",
+    "img1": "angel.png",
+	"img2": "angel-back.png"
+  },
+  {
+    "id": 2,
+    "name": "ANGEL OF DEATH™",
+    "price": "$50",
+	"type": "SHIRT",
+	"code": "JUL24002",
+    "img1": "brown.png",
+	"img2": "brown-back.png"
+  },
+  {
+    "id": 3,
+    "name": "LOS ANGELES TEE©",
+    "price": "$50",
+	"type": "SHIRT",
+	"code": "JUL24003",
+    "img1": "LA.png",
+	"img2": "LA-back.png"
+  },
+  {
+    "id": 4,
+    "name": "NEW YORK TEE™",
+    "price": "$50",
+	"type": "SHIRT",
+	"code": "BB001",
+    "img1": "nyc.png",
+	"img2": "nyc-back.png"
+  },
+  {
+    "id": 5,
+    "name": "VENICE TEE™",
+    "price": "$50",
+	"type": "SHIRT",
+	"code": "BB002",
+    "img1": "venice.png",
+	"img2": "venice-back.png"
+  },
+  {
+    "id": 6,
+    "name": "ZARA INSPIRED GRAPHIC",
+    "price": "$50",
+	"type": "SHIRT",
+	"code": "JUL24004",
+    "img1": "zara.png",
+	"img2": "zara-black.png"
+  }
+]
