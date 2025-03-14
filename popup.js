@@ -135,6 +135,30 @@ function message3(){
 	 window.open('https://drive.google.com/drive/folders/1kVEhyfdrrBa5nLnQC2rcCmSlHYTJcQ9v?usp=drive_link', '_self');
    
 }
+function messagePBC(){
+	var email = document.getElementById('email1');
+
+	 window.open('https://drive.google.com/drive/folders/1kVEhyfdrrBa5nLnQC2rcCmSlHYTJcQ9v?usp=drive_link', '_self');
+   
+}
+function messagedaysrodeo(){
+	var email = document.getElementById('email1');
+
+	 window.open('https://drive.google.com/drive/folders/1HnN45jY7gKEuFGunpTsyAMoC7Stj0lQu?usp=sharing', '_self');
+   
+}
+function messageplana(){
+	var email = document.getElementById('email1');
+
+	 window.open('https://drive.google.com/drive/folders/1SpVIxwWPC-muE0YnPJMfu8hdt6CBQLmk', '_self');
+   
+}
+function messagelovesick(){
+	var email = document.getElementById('email1');
+
+	 window.open('https://drive.google.com/drive/folders/1qz8gQTqcl8ekk1dZ7VMLtRLxJvuPVVic?usp=drive_link', '_self');
+   
+}
  var form = document.getElementById('emailform');
         form.addEventListener("submit", e => {
           e.preventDefault();
