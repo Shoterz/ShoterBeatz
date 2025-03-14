@@ -138,7 +138,7 @@ function message3(){
 function messagePBC(){
 	var email = document.getElementById('email1');
 
-	 window.open('https://drive.google.com/drive/folders/1kVEhyfdrrBa5nLnQC2rcCmSlHYTJcQ9v?usp=drive_link', '_self');
+	 window.open('https://drive.google.com/drive/folders/1CT-6x1FgHFcvO2rr4rhJVTO5JU_ZMbMl?usp=sharing', '_self');
    
 }
 function messagedaysrodeo(){
